@@ -1,0 +1,33 @@
+1. Get the orginal data csv (without repeating) (Pranesh)
+2. All band model
+3. Generate pusedo count data
+
+
+4. Think of a new way to fuse the latent space? (CHIRAG)
+
+
+
+#Current moedl (LC,NDVI, Numeric) - exisitng balancing techqiue
+Current model (LC, NDVI, Numeric)- Pusedo count data which generated
+
+Model (LC, NDVI, RGB, Numeric) - with existing data balanced
+Model (LC, NDVI, RGB, Numeric) - with pusedo count.
+
+
+
+Pusedo Plan1:
+Numeric data for all the points around the presence (with threshold distance) (Pranesh)
+Auto-encoder (decide which?)
+Create cluster, label the cluster with availble presence count.
+And assign the counts to the cluster based on disatnce(Elimintaing threshold physical distance)
+
+Then we will tain the Model
+
+
+Plan2:
+
+
+20230205
+
+
+
