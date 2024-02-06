@@ -2,3 +2,5 @@
 BACKUP/
 data/
 __pycache__/
+aus_data/
+cos_data/
